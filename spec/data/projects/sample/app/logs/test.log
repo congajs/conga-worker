@@ -1,0 +1,57 @@
+[2017-11-20 11:08:04.465] [DEBUG] default - [conga-framework] - processing controller annotations
+[2017-11-20 11:08:04.469] [DEBUG] default - [conga-framework] - handling controller: /Users/marcroulias/workspace/conga-forker/spec/data/projects/sample/src/demo-bundle/lib/controller/DefaultController.js
+[2017-11-20 11:08:04.471] [DEBUG] default - [conga-framework] - running handler: conga.controller.routing.annotations.handler
+[2017-11-20 11:08:04.479] [DEBUG] default - [conga-framework] - running handler: conga.controller.filter.annotations.handler
+[2017-11-20 11:08:04.480] [INFO] default - [conga-forker] - starting fork: /Users/marcroulias/workspace/conga-forker/lib/fork.js --project=/Users/marcroulias/workspace/conga-forker/spec/data/projects/sample --app=app --env=test --id=0
+[2017-11-20 11:08:04.486] [INFO] default - [conga-forker] - starting fork: /Users/marcroulias/workspace/conga-forker/lib/fork.js --project=/Users/marcroulias/workspace/conga-forker/spec/data/projects/sample --app=app --env=test --id=1
+[2017-11-20 11:08:04.489] [INFO] default - [conga-forker] - starting fork: /Users/marcroulias/workspace/conga-forker/lib/fork.js --project=/Users/marcroulias/workspace/conga-forker/spec/data/projects/sample --app=app --env=test --id=2
+[2017-11-20 11:08:04.492] [INFO] default - [conga-forker] - starting fork: /Users/marcroulias/workspace/conga-forker/lib/fork.js --project=/Users/marcroulias/workspace/conga-forker/spec/data/projects/sample --app=app --env=test --id=3
+[2017-11-20 11:08:04.495] [INFO] default - [conga-forker] - starting fork: /Users/marcroulias/workspace/conga-forker/lib/fork.js --project=/Users/marcroulias/workspace/conga-forker/spec/data/projects/sample --app=app --env=test --id=4
+[2017-11-20 11:08:04.500] [INFO] default - [conga-forker] - starting fork: /Users/marcroulias/workspace/conga-forker/lib/fork.js --project=/Users/marcroulias/workspace/conga-forker/spec/data/projects/sample --app=app --env=test --id=5
+[2017-11-20 11:08:04.502] [INFO] default - [conga-forker] - starting fork: /Users/marcroulias/workspace/conga-forker/lib/fork.js --project=/Users/marcroulias/workspace/conga-forker/spec/data/projects/sample --app=app --env=test --id=6
+[2017-11-20 11:08:04.506] [INFO] default - [conga-forker] - starting fork: /Users/marcroulias/workspace/conga-forker/lib/fork.js --project=/Users/marcroulias/workspace/conga-forker/spec/data/projects/sample --app=app --env=test --id=7
+[2017-11-20 11:08:04.511] [DEBUG] default - [conga-framework] - initializing express
+[2017-11-20 11:08:04.548] [DEBUG] default - [conga-framework] - starting http server
+[2017-11-20 11:08:04.556] [INFO] default - [conga-framework] - server started at http://localhost:3000
+[2017-11-20 11:08:04.556] [DEBUG] default - [conga-framework] - registering express middleware
+[2017-11-20 11:08:04.557] [INFO] default - [conga-framework] - kernel booted in: 287ms
+[2017-11-20 11:10:25.424] [DEBUG] default - [conga-framework] - processing controller annotations
+[2017-11-20 11:10:25.427] [DEBUG] default - [conga-framework] - handling controller: /Users/marcroulias/workspace/conga-forker/spec/data/projects/sample/src/demo-bundle/lib/controller/DefaultController.js
+[2017-11-20 11:10:25.429] [DEBUG] default - [conga-framework] - running handler: conga.controller.routing.annotations.handler
+[2017-11-20 11:10:25.435] [DEBUG] default - [conga-framework] - running handler: conga.controller.filter.annotations.handler
+[2017-11-20 11:10:25.437] [INFO] default - [conga-forker] - starting fork: /Users/marcroulias/workspace/conga-forker/lib/fork.js --project=/Users/marcroulias/workspace/conga-forker/spec/data/projects/sample --app=app --env=test --id=0
+[2017-11-20 11:10:25.443] [INFO] default - [conga-forker] - starting fork: /Users/marcroulias/workspace/conga-forker/lib/fork.js --project=/Users/marcroulias/workspace/conga-forker/spec/data/projects/sample --app=app --env=test --id=1
+[2017-11-20 11:10:25.446] [INFO] default - [conga-forker] - starting fork: /Users/marcroulias/workspace/conga-forker/lib/fork.js --project=/Users/marcroulias/workspace/conga-forker/spec/data/projects/sample --app=app --env=test --id=2
+[2017-11-20 11:10:25.449] [INFO] default - [conga-forker] - starting fork: /Users/marcroulias/workspace/conga-forker/lib/fork.js --project=/Users/marcroulias/workspace/conga-forker/spec/data/projects/sample --app=app --env=test --id=3
+[2017-11-20 11:10:25.452] [INFO] default - [conga-forker] - starting fork: /Users/marcroulias/workspace/conga-forker/lib/fork.js --project=/Users/marcroulias/workspace/conga-forker/spec/data/projects/sample --app=app --env=test --id=4
+[2017-11-20 11:10:25.455] [INFO] default - [conga-forker] - starting fork: /Users/marcroulias/workspace/conga-forker/lib/fork.js --project=/Users/marcroulias/workspace/conga-forker/spec/data/projects/sample --app=app --env=test --id=5
+[2017-11-20 11:10:25.459] [INFO] default - [conga-forker] - starting fork: /Users/marcroulias/workspace/conga-forker/lib/fork.js --project=/Users/marcroulias/workspace/conga-forker/spec/data/projects/sample --app=app --env=test --id=6
+[2017-11-20 11:10:25.463] [INFO] default - [conga-forker] - starting fork: /Users/marcroulias/workspace/conga-forker/lib/fork.js --project=/Users/marcroulias/workspace/conga-forker/spec/data/projects/sample --app=app --env=test --id=7
+[2017-11-20 11:10:25.468] [DEBUG] default - [conga-framework] - initializing express
+[2017-11-20 11:10:25.509] [DEBUG] default - [conga-framework] - starting http server
+[2017-11-20 11:10:25.516] [INFO] default - [conga-framework] - server started at http://localhost:3000
+[2017-11-20 11:10:25.516] [DEBUG] default - [conga-framework] - registering express middleware
+[2017-11-20 11:10:25.517] [INFO] default - [conga-framework] - kernel booted in: 293ms
+[2017-11-20 11:11:01.125] [DEBUG] default - [conga-framework] - processing controller annotations
+[2017-11-20 11:11:01.128] [DEBUG] default - [conga-framework] - handling controller: /Users/marcroulias/workspace/conga-forker/spec/data/projects/sample/src/demo-bundle/lib/controller/DefaultController.js
+[2017-11-20 11:11:01.130] [DEBUG] default - [conga-framework] - running handler: conga.controller.routing.annotations.handler
+[2017-11-20 11:11:01.136] [DEBUG] default - [conga-framework] - running handler: conga.controller.filter.annotations.handler
+[2017-11-20 11:11:01.138] [INFO] default - [conga-forker] - starting fork: /Users/marcroulias/workspace/conga-forker/lib/fork.js --project=/Users/marcroulias/workspace/conga-forker/spec/data/projects/sample --app=app --env=test --id=0
+[2017-11-20 11:11:01.144] [INFO] default - [conga-forker] - starting fork: /Users/marcroulias/workspace/conga-forker/lib/fork.js --project=/Users/marcroulias/workspace/conga-forker/spec/data/projects/sample --app=app --env=test --id=1
+[2017-11-20 11:12:03.461] [DEBUG] default - [conga-framework] - processing controller annotations
+[2017-11-20 11:12:03.465] [DEBUG] default - [conga-framework] - handling controller: /Users/marcroulias/workspace/conga-forker/spec/data/projects/sample/src/demo-bundle/lib/controller/DefaultController.js
+[2017-11-20 11:12:03.466] [DEBUG] default - [conga-framework] - running handler: conga.controller.routing.annotations.handler
+[2017-11-20 11:12:03.473] [DEBUG] default - [conga-framework] - running handler: conga.controller.filter.annotations.handler
+[2017-11-20 11:12:03.476] [INFO] default - [conga-forker] - starting fork: /Users/marcroulias/workspace/conga-forker/lib/fork.js --project=/Users/marcroulias/workspace/conga-forker/spec/data/projects/sample --app=app --env=test --id=0
+[2017-11-20 11:12:03.484] [INFO] default - [conga-forker] - starting fork: /Users/marcroulias/workspace/conga-forker/lib/fork.js --project=/Users/marcroulias/workspace/conga-forker/spec/data/projects/sample --app=app --env=test --id=1
+[2017-11-20 11:12:03.487] [INFO] default - [conga-forker] - starting fork: /Users/marcroulias/workspace/conga-forker/lib/fork.js --project=/Users/marcroulias/workspace/conga-forker/spec/data/projects/sample --app=app --env=test --id=2
+[2017-11-20 11:12:03.490] [INFO] default - [conga-forker] - starting fork: /Users/marcroulias/workspace/conga-forker/lib/fork.js --project=/Users/marcroulias/workspace/conga-forker/spec/data/projects/sample --app=app --env=test --id=3
+[2017-11-20 11:12:03.493] [INFO] default - [conga-forker] - starting fork: /Users/marcroulias/workspace/conga-forker/lib/fork.js --project=/Users/marcroulias/workspace/conga-forker/spec/data/projects/sample --app=app --env=test --id=4
+[2017-11-20 11:12:03.497] [INFO] default - [conga-forker] - starting fork: /Users/marcroulias/workspace/conga-forker/lib/fork.js --project=/Users/marcroulias/workspace/conga-forker/spec/data/projects/sample --app=app --env=test --id=5
+[2017-11-20 11:12:03.500] [INFO] default - [conga-forker] - starting fork: /Users/marcroulias/workspace/conga-forker/lib/fork.js --project=/Users/marcroulias/workspace/conga-forker/spec/data/projects/sample --app=app --env=test --id=6
+[2017-11-20 11:12:03.503] [INFO] default - [conga-forker] - starting fork: /Users/marcroulias/workspace/conga-forker/lib/fork.js --project=/Users/marcroulias/workspace/conga-forker/spec/data/projects/sample --app=app --env=test --id=7
+[2017-11-20 11:12:03.507] [DEBUG] default - [conga-framework] - initializing express
+[2017-11-20 11:12:03.550] [DEBUG] default - [conga-framework] - starting http server
+[2017-11-20 11:12:03.558] [INFO] default - [conga-framework] - server started at http://localhost:3000
+[2017-11-20 11:12:03.559] [DEBUG] default - [conga-framework] - registering express middleware
+[2017-11-20 11:12:03.559] [INFO] default - [conga-framework] - kernel booted in: 306ms

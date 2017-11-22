@@ -1,0 +1,25 @@
+parameters:
+
+    # forker
+    conga.worker.manager.constructor: "@conga/framework-worker:WorkerManager"
+    conga.worker.constructor: "@conga/framework-worker:WorkerRunner"
+    conga.worker.pool.manager.constructor: "@conga/framework-worker:PoolManager"
+
+services:
+
+    # the forker
+    conga.worker.manager:
+        constructor: "%conga.worker.manager.constructor%"
+        tags:
+            - { name: kernel.event, event: kernel.boot, method: onKernelBoot, priority: 0 }
+            - { name: kernel.event, event: kernel.postboot, method: onKernelPostBoot, priority: 0 }
+
+    # the forker
+    conga.worker:
+        constructor: "%conga.worker.constructor%"
+        arguments: ['@service_container', '@conga.worker.pool.manager']
+
+    # the fork pool manager
+    conga.worker.pool.manager:
+        constructor: "%conga.worker.pool.manager.constructor%"
+        arguments: ['@service_container']

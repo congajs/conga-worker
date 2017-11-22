@@ -1,0 +1,22 @@
+imports:
+    - { resource : config.yml }
+
+framework:
+
+    # application settings
+    app:
+
+        port:  5555
+
+    logger:
+
+        # log to console for development mode
+        default:
+            type: console
+            level: DEBUG
+
+forker:
+
+    # If true, stdin, stdout, and stderr of the child will be piped to the parent,
+    # otherwise they will be inherited from the parent
+    silent: false

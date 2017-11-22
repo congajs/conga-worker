@@ -1,0 +1,5 @@
+services:
+
+    hello.world:
+        constructor: "demo-bundle:service/HelloWorldService"
+        

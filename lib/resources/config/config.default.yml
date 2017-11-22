@@ -1,0 +1,13 @@
+worker:
+
+    # If true, stdin, stdout, and stderr of the child will be piped to the parent,
+    # otherwise they will be inherited from the parent
+    silent: false
+
+    pool:
+
+        # the number of worker processes to pool (this can be a number or 'auto' to use all processors)
+        size: auto
+
+        # specify the app name to use for pool (null will use current app)
+        app: null
